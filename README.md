@@ -1,4 +1,5 @@
 [![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-c66648af7eb3fe8bc4f294546bfd86ef473780cde1dea487d3c4ff354943c9ae.svg)](https://classroom.github.com/online_ide?assignment_repo_id=7990445&assignment_repo_type=AssignmentRepo)
+
 # Summer of Rust Lab 6: Advent of Code
 
 This week, we'll learn about traits, generics, and closures. We'll also go back
@@ -15,8 +16,7 @@ Advent of Code is an Advent calendar of programming puzzles that takes place
 every year for the first 25 days of December. You can read more about it here:
 https://adventofcode.com/2021/about
 
-For this week's lab, we'll be doing questions from the first and second days of
-2019. Each day has two parts, and to read the instruction for the second part,
+For this week's lab, we'll be doing questions from the first and second days of 2019. Each day has two parts, and to read the instruction for the second part,
 you need to complete the first. Each day also comes with a puzzle input that you
 use to get a final result.
 
@@ -29,9 +29,11 @@ Here is the link for day 1: https://adventofcode.com/2019/day/1
 For both of these problems, we'll be working in this directory. To create a new
 Rust project, you can run:
 
-```bash
-cargo new <project-name>
-```
+cargo new day1
+
+If you decide to use a different name for the project, make sure to change it in
+[Cargo.toml](Cargo.toml). This is because Rust needs to know what the names of
+the member crates are so that `cargo fmt` and `cargo clippy` can work properly :)
 
 You'll need to read from a file for this question, so here's some starter code
 to help you with that:
@@ -93,6 +95,6 @@ See you next week 🏖️
 
 The Summer of Rust Labs is duel-licensed under either:
 
-* MIT License ([LICENSE-MIT](LICENSE-MIT) or [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT))
-* Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or
+- MIT License ([LICENSE-MIT](LICENSE-MIT) or [http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT))
+- Apache License, Version 2.0 ([LICENSE-APACHE](LICENSE-APACHE) or
   [http://www.apache.org/licenses/LICENSE-2.0](http://www.apache.org/licenses/LICENSE-2.0))
